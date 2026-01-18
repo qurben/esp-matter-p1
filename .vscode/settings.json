@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/gerben/Projects/esp-idf",
+  "idf.pythonInstallPath": "/opt/homebrew/bin/python3",
+  "idf.openOcdConfigs": [
+    "board/esp32c6-lpcore-builtin.cfg"
+  ],
+  "idf.port": "detect",
+  "idf.toolsPath": "/Users/gerben/.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c6",
+    "OPENOCD_USB_ADAPTER_LOCATION": "0-1"
+  },
+  "clangd.path": "/Users/gerben/.espressif/tools/esp-clang/esp-18.1.2_20240912/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/gerben/Projects/esp-matter-p1-1/build"
+  ],
+  "idf.flashType": "JTAG"
+}
